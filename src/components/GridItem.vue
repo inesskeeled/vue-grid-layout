@@ -93,12 +93,10 @@
     //    var eventBus = require('./eventBus');
 
     import '@interactjs/auto-start'
+    import '@interactjs/auto-scroll'
     import '@interactjs/actions/drag'
     import '@interactjs/actions/resize'
     import '@interactjs/modifiers'
-    import '@interactjs/dev-tools'
-    import interact from '@interactjs/interact'
-    import '@interactjs/auto-scroll'
 
     export default {
         name: "GridItem",
